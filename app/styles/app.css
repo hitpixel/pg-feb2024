@@ -1,3 +1,5 @@
+@import url('tailwind.css');
+
 :root {
   --aside-width: 400px;
   --cart-aside-summary-height-with-discount: 300px;
@@ -470,4 +472,170 @@ aside li {
 
 .account-logout {
   display: inline-block;
+}
+
+/*
+* --------------------------------------------------
+* Font Styles
+* --------------------------------------------------
+*/
+@font-face {
+  font-display: swap;
+  font-family: "Domaine Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.shopify.com/s/files/1/0150/6262/files/DomaineDisp-Regular.otf) format("truetype")
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Domaine Display";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://cdn.shopify.com/s/files/1/0150/6262/files/DomaineDisp-Medium.otf) format("truetype")
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Domaine Text";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://cdn.shopify.com/s/files/1/0150/6262/files/DomaineText-Light.otf) format("truetype")
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Domaine Text";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.shopify.com/s/files/1/0150/6262/files/DomaineText-Regular.otf) format("truetype")
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Domaine Text";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://cdn.shopify.com/s/files/1/0150/6262/files/DomaineText-Medium.otf) format("truetype")
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Domaine Text";
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://cdn.shopify.com/s/files/1/0150/6262/files/DomaineText-Bold.otf) format("truetype")
+}
+
+body,html {
+  font-family: "Domaine Text"
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #2d2a24;
+  font-family: "Domaine Display";
+  letter-spacing: -.01em;
+  line-height: 110%;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 68px;
+}
+
+h2 {
+  font-size: 60px
+}
+
+h3 {
+  font-size: 56px
+}
+
+h1.article__title,h4 {
+  font-size: 48px
+}
+
+h5 {
+  font-size: 42px
+}
+
+h1.main-product-title,h6 {
+  font-size: 36px
+}
+
+a,li,p,span {
+  color: #2d2a24;
+  font-family: "Domaine Text";
+  font-size: 16px;
+  line-height: 150%
+}
+
+@media(max-width: 480px) {
+  h1 {
+      font-size:42px
+  }
+
+  h2 {
+      font-size: 36px
+  }
+
+  h3 {
+      font-size: 32px
+  }
+
+  h1.article__title,h4 {
+      font-size: 28px
+  }
+
+  h5 {
+      font-size: 24px
+  }
+
+  h1.main-product-title,h6 {
+      font-size: 21px
+  }
+}
+
+@media(min-width: 480px)and (max-width:1024px) {
+  h1 {
+      font-size:45px
+  }
+
+  h2 {
+      font-size: 41px
+  }
+
+  h3 {
+      font-size: 37px
+  }
+
+  h1.article__title,h4 {
+      font-size: 33px
+  }
+
+  h5 {
+      font-size: 29px
+  }
+
+  h1.main-product-title,h6 {
+      font-size: 25px
+  }
+}
+
+/*
+* --------------------------------------------------
+* Font Styles
+* --------------------------------------------------
+*/
+
+@media (min-width: 768px){
+  .laptop\:col-span-6 {
+    grid-column: span 6/span 6;
+}
+}
+
+@media (min-width: 768px){
+  .laptop\:order-first {
+    order: -9999;
+}
 }
