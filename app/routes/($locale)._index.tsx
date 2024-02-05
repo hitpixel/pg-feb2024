@@ -28,19 +28,19 @@ export default function Homepage() {
       <section type="hero" className="hero_banner medium">
         <div className="hero__grid grid grid-cols-12" style={{ backgroundColor: '#e8f8fa' }}>
           <div className="flex flex-col items-center justify-center order-last col-span-12 info laptop:order-first laptop:col-span-6">
-            <div className="p-4 py-10 laptop:py-0 sill-container text-container text-left">
+            <div className="p-4 py-10 laptop:py-0 pg-container text-container text-left">
               <h1 className="text-black">Plants Make People Happy</h1>
               <p className="my-6 text-black">
                 Plants, care accessories, and more magic delivered to your door—happiness guaranteed.
               </p>
               <div className="buttons flex gap-2">
                 <div>
-                  <a href="/collections/live-plants" type="button" className="capitalize text-center sill-btn appearance-none bg-primary-light hover:bg-primary text-white block x-padding" data-v-2038032e="">
+                  <a href="/collections/live-plants" type="button" className="capitalize text-center pg-btn appearance-none bg-primary-light hover:bg-primary text-white block x-padding" data-v-2038032e="">
                     Shop Online
                   </a>
                 </div>
                 <div>
-                  <a href="/locations" type="button" className="capitalize text-center sill-btn appearance-none bg-white text-primary-text hover:bg-common-green block x-padding" data-v-2038032e="">
+                  <a href="/locations" type="button" className="capitalize text-center pg-btn appearance-none bg-white text-primary-text hover:bg-common-green block x-padding" data-v-2038032e="">
                     Find a Store
                   </a>
                 </div>

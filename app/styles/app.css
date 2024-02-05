@@ -641,11 +641,11 @@ a,li,p,span {
 }
 
 
-.x-padding[data-v-2038032e] {
+.x-padding {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-.sill-btn[data-v-2038032e] {
+.pg-btn {
   border-radius: 1px;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -660,4 +660,12 @@ a,li,p,span {
 .appearance-none {
   -webkit-appearance: none;
   appearance: none;
+}
+
+.pg-container {
+  margin: auto;
+  max-width: 1920px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
 }
