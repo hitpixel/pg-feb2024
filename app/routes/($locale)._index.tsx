@@ -24,7 +24,6 @@ export default function Homepage() {
   const data = useLoaderData<typeof loader>();
   return (
     <div className="home">
-      
       <section type="hero" className="hero_banner medium">
         <div className="hero__grid grid grid-cols-12" style={{ backgroundColor: '#e8f8fa' }}>
           <div className="flex flex-col items-center justify-center order-last col-span-12 info laptop:order-first laptop:col-span-6">
@@ -53,12 +52,10 @@ export default function Homepage() {
           </div>
         </div>
       </section>
-      <FeaturedCollection collection={data.featuredCollection} />
-      <RecommendedProducts products={data.recommendedProducts} />
 
+      <!-- <FeaturedCollection collection={data.featuredCollection} />
+      <RecommendedProducts products={data.recommendedProducts} />  -->
 
-      <FeaturedCollection collection={data.featuredCollection} />
-      <RecommendedProducts products={data.recommendedProducts} />
     </div>
   );
 }
