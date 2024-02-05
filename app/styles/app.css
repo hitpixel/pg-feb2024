@@ -652,3 +652,12 @@ a,li,p,span {
   line-height: 1.25;
   padding: 15px 5px 14px;
 }
+
+.bg-primary-light {
+  --tw-bg-opacity: 1;
+  background-color: #00ab84;
+}
+.appearance-none {
+  -webkit-appearance: none;
+  appearance: none;
+}
