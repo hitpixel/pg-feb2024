@@ -35,12 +35,12 @@ export default function Homepage() {
               </p>
               <div className="buttons flex gap-2">
                 <div>
-                  <a href="/collections/live-plants" type="button" className="capitalize text-center pg-btn appearance-none bg-primary-light hover:bg-primary text-white block x-padding" data-v-2038032e="">
+                  <a href="/collections/live-plants" type="button" className="capitalize text-center pg-btn appearance-none bg-primary-light hover:bg-primary text-white block x-padding">
                     Shop Online
                   </a>
                 </div>
                 <div>
-                  <a href="/locations" type="button" className="capitalize text-center pg-btn appearance-none bg-white text-primary-text hover:bg-common-green block x-padding" data-v-2038032e="">
+                  <a href="/locations" type="button" className="capitalize text-center pg-btn appearance-none bg-white text-primary-text hover:bg-common-green block x-padding">
                     Find a Store
                   </a>
                 </div>
