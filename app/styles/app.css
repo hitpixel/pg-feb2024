@@ -662,10 +662,24 @@ a,li,p,span {
   appearance: none;
 }
 
-.pg-container {
-  margin: auto;
-  max-width: 1920px;
-  padding-left: 16px;
-  padding-right: 16px;
-  width: 100%;
+@media (min-width: 768px){
+  .text-container {
+    max-width: 630px;
 }
+}
+
+@media (min-width: 480px) {
+  .pg-container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+}
+
+.pg-container {
+    margin: auto;
+    max-width: 1920px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+}
+
